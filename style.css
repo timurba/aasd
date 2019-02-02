@@ -1,55 +1,9 @@
 body{
-    margin: 0;
-    padding-top: 5px;
+	margin:0;
 }
 
-.container	{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 14px;
-    width: 100%;
-}
-
-.right button{
-    background: blue;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-}
-
-
-.right a:hover{
-    color: red;
-}
-
-.left {
-    width: 13%;
-    display: flex;
+ .menu ul{
+	display: flex;
     justify-content: space-around;
     align-items: flex-end;
-}
-
-.right {
-    width: 87%;
-    height: 0px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-.text{
-    width: 130px;
-    height: 20px;
-    background: darkgrey;
-    margin-top: -15px;
-    margin-left: 2px;
-    text-align: center;
-}
-
-#radiobells_container{
-    width: 99%;
-    margin-top: 0px;
 }
