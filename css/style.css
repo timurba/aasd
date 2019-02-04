@@ -20,6 +20,22 @@ body{
 	margin-top: -8px;
 }
 
+.menu button a{
+	color: white;
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: #217FF7;
+	text-decoration: none;
+	border-bottom: groove;
+}
+
+
 
 .right a:hover{
 	color: red;
@@ -34,7 +50,6 @@ body{
 
 .right {
 	width: 87%;
-	height: 0px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -71,4 +86,25 @@ body{
 	display: flex;
     justify-content: space-around;
     align-items: unset;
+    font-family: Open Sans; 
+	font-style: normal; 
+	font-weight: normal; 
+	line-height: normal; 
+	font-size: 13px;
+}
+
+
+.block1{
+	display: flex;
+	width: 40%;
+	height: 50px;
+    background: #E6E9F0;
+}
+
+.block2{
+	display: flex;
+	width: 60%;
+	height: 50px;
+	background: red;
+	background: rgba(33, 127, 247, 0.2);
 }
