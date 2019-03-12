@@ -332,78 +332,55 @@ footer{
     color: #FFFFFF;
     padding-left: 15px;
 }
-
-
-.block__text{
-    font-size: 12px;
-    color: white;
-    font-family: sans-serif;
-    margin-top: 5px;
-}
-
-.block__tittle{
-    color: white;
-    font-family: sans-serif;
-    margin-top: -9px;
-    font-family: Open Sans;
-    font-size: 33px;
-}
 .block__alt{
-    margin-top: -40px;
     color: #FFFFFF;
     opacity: 0.7;
     font-size: 12px;
+    white-space: pre-line;
+    display: -webkit-box;
+    padding-left: 10px;
 }
 .box-numbers{
     display: flex;
     padding-left: 50px;
     color: #ffffff;
     width: 100%;
+    justify-content: space-between;
 }
 .box-numbers a{
     text-decoration: none;
     color:white;
     opacity: 0.7;
 }
-
-.one{
-    width: 12%;
-    font-size: 13px;
-    font-family: Open Sans;
-}
-.one__tittle{
+.box__tittle{
     font-family: Open Sans; 
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
-.two{
-    width: 12%;
-    padding-left: 70px;
-    font-family: Open Sans;
-    font-size: 13px;    
-}
-.two__tittle{
-    font-family: Open Sans; 
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
     white-space: nowrap;
 }
-.three{
+.box__news{
+    width: 12%;
+    font-size: 13px;
+    font-family: Open Sans;
+    display: block;
+}
+.box__company{
+    width: 12%;
+    font-family: Open Sans;
+    font-size: 13px;
+    display: block;  
+}
+.box__mobile{
     width: 20%;
-    padding-left: 70px;
     font-family: Open Sans; 
     font-size: 12px; 
     letter-spacing: 0.1em; 
     text-transform: uppercase;
+    display: block;
 }
-.three__tittle{
-    font-family: Open Sans;
-    font-size: 13px; 
-    white-space: nowrap;
-}
-.three i{
+
+.box__mobile i{
     padding-left: 10px;
     color: red;
     font-size: 10px;
@@ -411,56 +388,64 @@ footer{
 .block a{
     text-decoration: none;
 }
-.four{
+.box__social{
     width: 25%;
-    margin-left: 70px;
     font-family: Open Sans;  
     font-size: 16px; 
     letter-spacing: 0.1em;
 }
-.four__tittle{
-    font-family: Open Sans; 
-    font-size: 14px;  
-}
-.four i{
+.box__social i{
     font-size: 20px;
-    opacity: none;
     color: white;
     padding-left: 10px;
 }
 
-.four i:hover{
+.box__social i:hover{
     color: yellow;
 }
 .contents{
+    width: 100%;
     padding-bottom: 10px;
     display: flex;
 }
-.contents__left{
-    width: 80%;
-    padding-left: 15px;
+.contents__text{
     color: #FFFFFF;
     opacity: 0.7;
     font-family: Open Sans;
     font-size: 10px;
     line-height: 1;
+    text-align: justify;
+    margin-bottom: 50px;
 }
+.contents__left{
+    width: 75%;
+    padding-left: 20px;
+    white-space: pre-line;
+}
+
 .contents__right{
-    width: 20%;
+    width: 25%;
     color: #FFFFFF;
     opacity: 0.7;
     font-family: Open Sans;
     font-size: 13px;
     line-height: 1;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.contents__tittle{
     white-space: nowrap;
+    font-size: 15px;
 }
-.right__text{
-    padding-top: 80px;
+
+.contents__title{
+    white-space: nowrap;
+    font-size: 15px;
 }
-.one__texxxt{
+.box__texxxt{
     white-space: nowrap;
 }
 
-.three__texxxt{
-    white-space: nowrap;
-}
