@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+ <header>
+<div class="headerleft">
+<img src="img/Frame.png" class="logo">
+</div>
+     <div class="headerright">
+    <div class="headerright__up">
+    <div class="live">
+          <a href="#"><img src="img/Vector.png" class="live__play"></a>
+            <div class="live__broadcast"> <span>Прямой эфир</span><br>
+            
+               
+                <img src="img/circle.png" class="live__circle"> <i> Live </i>
+          </div>
+  
+    </div>
+        <div class="radio">
+            <div class="listen__radio">
+                <span>Слушать радио онлайн:</span>
+            </div>
+
+            <div class="volume">
+                <a href="#"><span><i class="fa fa-volume-up" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="radio__name">
+                <a href="#">МАЯК</a>
+            </div>
+            <div class="volume">
+                <a href="#"><span><i class="fa fa-volume-up" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="radio__name">
+                <a href="#">РАДИО РОССИИ</a>
+            </div>
+        </div>
+
+        <div class="dollareuro">
+            <div class="degrees">
+                <span>+27°C</span>
+            </div>
+            <div class="dollar">
+                <span> ДОЛЛАР 66,89</span>
+
+            </div>
+            <div class="euro">
+                <span>ЕВРО 76,05 </span>
+            </div>
+            <div class="age">
+                <span>16+</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="headermenu">
+
+            <div class="menu">
+                <a href="#">Лента новостей</a>
+                <a href="#">Телепроекты</a>
+                <a href="#">Радиопроекты</a>
+                <a href="#">Интервью</a>
+                <a href="#">Трансляции</a>
+                <a href="#">Мобильный репортер</a>
+                <a href="#">Партнерам</a>
+            </div>
+            <div class="button__search">
+            <a href="#" class="button"><span> Отправить новость</span></a>
+               
+            <div class="search">
+                 <a href="#"><img src="img/search.png" class="search_icon"></a>
+            </div>
+               </div>
+               
+         </div>
+    </div>
+
+</div>
+ </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="all">
+                    <div class="news__breaking">
+                        <span>Срочная новость</span>
+                    </div>
+                <div class="news__text">
+                <span>Пострадавшему от пожара сельхозпредприятию «Шувалово» будет оказана материальная помощь</span>
+                </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide">Что-то будет...</div>
+            <div class="swiper-slide">И здесь тоже...</div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </div>
+
+
+<script src="js/swiper.min.js"></script>
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      hover:{
+        color: 'white',
+      }
+    });
+ </script>
+
+ <section>
+ <div class="major">
+     <div class="major__left">
+        <button class="major__btn">Актуальное</button>
+        <div class="major__tittle">
+            <h1 class="major__tittle--tit">Ремонт моста</h1>
+        </div>
+            <div class="major__text">
+                <span class="major__text--news">Сколько денег город потратил на строительство нового моста, как скоро его отремонтируют и другие новости, касающиеся моста</span>
+            </div>
+
+            <div class="major__all">
+                <div class="major__start">
+                    <span class="major__start--news">Поездили - и хватит: мост через Волгу в Костроме снова закрывают на ремонт</span>
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"> 5 674  </i> <span class="major__start--newss">&nbsp;&nbsp;&nbsp;14 августа 2018</span>
+                    </div>
+                </div>
+
+                <div class="major__midle">
+                    <span class="major__start--news">Две полоски - хорошо, а четыре - лучше: в Костроме полностью открыли для движения мост через Волгу</span>
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"> 5 674</i> <span class="major__start--newss">&nbsp;&nbsp;&nbsp;1 августа 2018</span>
+                    </div>
+                </div>
+
+                <div class="major__end">
+                    <span class="major__start--news">Откроют на 2 дня и снова закроют: общественники провели ход ремонтных работ на мосту через Волгу</span>
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"> 5 674</i> <span class="major__start--newss">&nbsp;&nbsp;&nbsp;4 июля 2018</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="major__link">
+                <a href="#">еще 5 новостей по теме</a>
+            </div>
+            
+     </div>
+
+ <div class="major__right">
+
+    <div class="hashtags">
+  
+     <div class="populartags">Популярные теги:</div>
+ <a href="#"> <div  class="tag">#культура</div></a>
+ <a href="#"> <div  class="tag">#мост</div></a>
+ <a href="#"> <div  class="tag">#лес</div></a>
+ <a href="#"> <div  class="tag">#дороги</div></a>
+ <a href="#"> <div  class="tag">#дума</div></a>
+ <a href="#"> <div  class="tag">#экономика</div></a>
+ <a href="#"> <div  class="tag">#общество</div></a>
+ <a href="#"> <div  class="tag">#спорт</div></a>
+ <a href="#"> <div  class="tag">#пейнтбол</div></a>
+ <a href="#"> <div  class="tag">#безопасность</div></a>
+ <a href="#"> <div  class="tag">#дети</div></a>
+</div>
+
+<div class="maintoday">Главное сегодня:</div>
+<div class="mainnews"></div>
+
+     
+
+<div> <img src="img/advertising.png" class="advertising"> </div>
+<div class="advertisinggtrk">
+  <div class="advertisingtext">Реклама на ГТРК</div>
+</div>
+ </div>
+ </div>
+</section>
+
+<footer>
+    <div class="box">
+    <div class="block">
+       <a href="#"><img src="img/kostroma.png" width="200" height="60"></a>
+        <span class="block__alt">© 2018 Сетевое издание "Государственный Интернет-журнал "Россия" 2001 - 2018.</span>
+    </div>
+        <div class="box-numbers">
+            <div class="box__news">
+                <a class="box__tittle" href="#">НОВОСТИ</a>
+                <a href="#">Телепроекты</a>
+                <a href="#">Радиопроекты</a>
+                <a href="#">Интервью</a>
+                <a href="#">Трансляции</a>
+                <a  class="box__texxxt" href="#" >Архив новостей</a>
+            </div>
+        <div class="box__company">
+            <a class="box__tittle" href="#">О КОМПАНИИ</a>
+            <a href="#">Партнёрам</a>
+            <a href="#">Контакты</a>   
+        </div>
+
+        <div class="box__mobile">
+            <a class="box__tittle" href="#">МОБИЛЬНЫЙ РЕПОРТЁР</a>
+            <a class="box__texxxt" href="#">ПРЯМОЙ ЭФИР <i class="fas fa-circle">&nbsp;&nbsp;LIVE</i></a>
+        </div>
+
+        <div class="box__social">
+            <a class="box__tittle">Соцсети:</a><br>
+            <br>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;<a href="#"><i class="fab fa-vk"></i></a>&nbsp;<a href="#"><i class="fab fa-youtube"></i></a>&nbsp;<a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</div><hr size="0.5">
+<div class="contents">
+    <div class="contents__left">
+        <span class="contents__text">Свидетельство о регистрации СМИ Эл № ФС 77-59166 от 22.08.2014, выдано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций.</span>
+        <span class="contents__text">Учредитель – ФГУП «Всероссийская государственная телевизионная и радиовещательная компания».</span><br>
+        <span class="contents__text">Главный редактор – Панина Елена Валерьевна, редактор ГТРК «Кострома» – Катилова Лариса Львовна.</span>
+        <span class="contents__text">Все права на любые материалы, опубликованные на сайте, защищены в соответствии с российским и международным законодательством об интеллектуальной собственности. Любое использование текстовых,фото, аудио и видеоматериалов возможно только с согласия правообладателя (ВГТРК).</span><br>
+        <span class="contents__text">Телефон редакции ГТРК «Кострома» – 8 (4942) 31-51-83, e-mail: gtrk@gtrk.kmtn.ru.</span>
+    </div>
+
+    <div class="contents__right">
+        <span class="contents__tittle">Политика конфиденциальности</span>
+        <div class="logo">
+            <span class="contents__title">Разработка - Медиасеть</span>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>
